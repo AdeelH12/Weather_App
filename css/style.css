@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;  
+    margin: 0;
+    padding: 0;
+    background: #e0f7fa; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Weather Container */
+.weather_container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); 
+}
+
+/* Input & Button Styling */
+.weather_container input,
+.weather_container button {
+    font-size: 16px;
+    padding: 8px;
+    margin: 5px 5px;
+    border: 1px solid #b2ebf2; 
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: #004d40; 
+    font-weight: 500;
+}
+
+/* Search Button */
+.weather_container button:hover {
+    background-color: #4db6ac; 
+    color: white;
+}
+
+/* Weather Info Container */
+.weather-info {
+    display: none;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+/* Weather Image */
+.weather-info img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* Weather Info Text */
+.weather-info #weather_text, 
+.weather-info #degrees,
+.weather-info #date {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 10px 0;
+}
+
+/* Weather Description Styling */
+.weather-info #weather_text {
+    font-size: 18px;
+    color: #004d40; 
+}
+
+/* Temperature Styling */
+.weather-info #degrees {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ff8f00; 
+}
+
+/* Date Styling */
+.weather-info #date {
+    font-size: 14px;
+    color: #00796b; 
+}
+
+/* Location Input Styling */
+#location {
+    font-size: 15px;
+    padding: 8px;
+    color: #004d40; 
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+    .weather_container {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .weather-info {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+body {
+    font-family: "Sour Gummy", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.weather_container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather_container input,
+.weather_container button {
+    font-size: 16px;
+    padding: 8px;
+    margin: 0 5px;
+}
+
+.weather-info {
+    display: none;  
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.weather-info div {
+    margin: 10px 0;
+}
+
+#location {
+
+    font-size: 15px;
+ 
+}
+
+#weather_text,
+#degrees,
+#date{
+
+    font-size: 25px;
+    
+} */
